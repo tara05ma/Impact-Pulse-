@@ -1,7 +1,9 @@
 # ImpactPulse 
-### Precision Emergency Response
+ImpactPulse is a mobile application designed to streamline emergency response by giving first responders and bystanders immediate access to a person's critical medical information. Built with crash detection at its core, ImpactPulse automatically alerts emergency contacts the moment an incident is detected, no manual action required.
 
-## Screenshots
+## Application Interface
+
+![Impact Pulse UI](screenshots/app_interface.png)
 
 
 
