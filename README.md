@@ -3,7 +3,7 @@ ImpactPulse is a mobile application designed to streamline emergency response by
 
 ## Application Interface
 
-![Impact Pulse UI](screenshots/app_interface.png)
+![Impact Pulse UI](screenshots/appinterface.png)
 
 
 
