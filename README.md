@@ -1,16 +1,24 @@
-# impact_pulse
+# ImpactPulse 
+### Precision Emergency Response
 
-A new Flutter project.
+## Screenshots
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Medical Profile Management** — Store and manage personal medical history including family history, current symptoms, medications, allergies, and lifestyle data.
+- **Emergency Contact Management** — Add and manage multiple emergency contacts, each with name, phone, and email.
+- **Crash Detection** — Automatically detects crash events and triggers background alerts to emergency contacts without interrupting app execution.
+- **Automated Email Alerts** — Sends real-time notifications to emergency contacts via asynchronous SMTP email services when a crash is detected.
+- **Secure Data Storage** — Medical data is stored securely using Supabase and PostgreSQL with multi-profile support.
+
+### Installation
+
+```bash
+git clone https://github.com/tara05ma/Impact-Pulse-
+cd impactpulse
+flutter pub get
+```
