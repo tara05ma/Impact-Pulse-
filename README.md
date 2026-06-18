@@ -20,6 +20,6 @@ ImpactPulse is a mobile application designed to streamline emergency response by
 
 ```bash
 git clone https://github.com/tara05ma/Impact-Pulse-
-cd impact_pulse
+cd Impact-Pulse-
 flutter pub get
 ```
