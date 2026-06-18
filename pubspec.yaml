@@ -1,0 +1,52 @@
+name: impact_pulse
+description: "Emergency medical information management for families."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.7 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  
+  # --- BACKEND & AUTH ---
+  # Connects your app to the Project ID: souuhbwhiaauteecbozl
+  supabase_flutter: ^2.6.0 
+  
+  # --- STATE MANAGEMENT ---
+  provider: ^6.1.1
+  
+  # --- LOCAL STORAGE ---
+  # Essential for offline medical access during accidents
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # --- UTILITIES ---
+  # For the Main User and Family member profile photos
+  image_picker: ^1.0.7
+  # For formatting dates and medical records
+  intl: ^0.19.0
+  # Crucial for the 'Call Emergency Services' button
+  url_launcher: ^6.2.5
+  sms_sender_background: ^1.0.6
+  emailjs: any
+  geolocator: ^13.0.1
+  http: ^1.1.0
+  mailer: ^6.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  # Required to generate code for your Medical Profile models
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+
+  # Asset section for your logo
+  assets:
+    - assets/images/logo.png
